@@ -1,0 +1,22 @@
+{
+  "name": "zgia/neolog",
+  "description": "Send log to Monolog",
+  "keywords": ["log", "logging", "psr-3"],
+  "homepage": "http://github.com/zgia/neolog",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "zgia",
+      "email": "happytime@gmail.com",
+      "homepage": "https://zgia.net"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "monolog/monolog": "^1.19"
+  },
+  "autoload": {
+    "psr-4": {"Neo\\NeoLog\\": ""}
+  }
+}

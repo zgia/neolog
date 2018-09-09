@@ -1,0 +1,7 @@
+.DS_Store
+.idea/
+*.log
+.htaccess
+.editorconfig
+vendor/
+composer.lock
